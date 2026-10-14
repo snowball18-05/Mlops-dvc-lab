@@ -25,7 +25,5 @@ def test_prediction_count():
 
 def test_prediction_classes():
     df = create_dataset(n=200)
-    predictions = train_model(df[FEATURES], df["late_delivery"]).predict(
-        df[FEATURES]
-    )
+    predictions = train_model(df[FEATURES], df["late_delivery"]).predict(df[FEATURES])
     assert set(predictions).issubset({0, 1})

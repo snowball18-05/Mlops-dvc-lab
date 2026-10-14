@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Day 3 MLOps — Executable Workshop Project
 
 See the separate `Day3_Step_by_Step_Hands_on_Guide.md` for Labs 1–15.
@@ -17,3 +18,6 @@ python -m scripts.evaluate
 ```
 
 The CSV and reports are generated and intentionally ignored by Git.
+=======
+# Mlops-dvc-lab
+>>>>>>> 9c9450b60679b11b29c3959af68eecd5b2faeaf2
